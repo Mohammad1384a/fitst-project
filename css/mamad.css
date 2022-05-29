@@ -18,6 +18,7 @@ header {
 }
 
 .header {
+    margin-left: 5vw;
     color: white;
     float: left;
 }
@@ -145,7 +146,7 @@ main h1 {
 
 #users {
     text-align: center;
-    padding: 100px 0;
+    padding-top: 10vh;
 }
 
 .users-header h2 {
@@ -206,4 +207,70 @@ main h1 {
     width: 60%;
     margin: 0 auto;
     color: #858585;
+}
+
+
+/*main-form*/
+
+#form {
+    background-color: #3cadd4;
+    height: 80vh;
+}
+
+#form form {
+    width: 40%;
+    margin: 0 30%;
+}
+
+#form form input {
+    height: 2.5vw;
+    width: 43%;
+    margin: 2vh 3%;
+    border: none;
+    border-radius: 5%;
+}
+
+#form form input:focus {
+    outline: none;
+}
+
+#form form input::placeholder {
+    padding-left: 1.5vw;
+}
+
+#form form textarea:focus {
+    outline: none;
+}
+
+#form form textarea::placeholder {
+    padding-left: 1.5vw;
+}
+
+#form textarea {
+    border-radius: 5%;
+    margin-left: 3%;
+    width: 93%;
+    height: 20vh;
+}
+
+.form-header p {
+    text-align: center;
+    color: white;
+    padding-bottom: 5vh;
+    font-size: 1.3vw;
+}
+
+.form-header h1 {
+    padding: 7vh 0 1vh 0;
+    color: white;
+}
+
+#form-btn {
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 3vw;
+    background-color: #080d0f;
+    margin: 5% auto;
+    padding: .8% 2.5%;
+    display: block;
 }
